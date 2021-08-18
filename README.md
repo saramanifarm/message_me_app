@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<div class="event">
+    <div class="content">
+        <div class="summary">
+            <em> <%= message.user.username %> </em> :- <%= message.body %>
+        </div>
+    </div>
+</div>
