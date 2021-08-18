@@ -4,6 +4,8 @@ class HomeController < ApplicationController
 
     def home
         @message = Message.new
-        @messages = Message.all
+        @messages = Message.custom_display
     end
+
+    private
 end
